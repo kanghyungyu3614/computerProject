@@ -4,7 +4,7 @@
 노션 : https://bit.ly/3eSW6cU <br>
 캔바 : https://bit.ly/3LHjVQM <br>
 figma : https://bit.ly/3SvBXYn <br>
-DB_diagram : https://bit.ly/3BMkeVJ <br>
+DB_diagram : https://bit.ly/3DejtqG <br>
 
 <table>
  <tr>
