@@ -1,7 +1,7 @@
 # computerProject
 주제 : 컴퓨터 상품 구매 프로젝트입니다. <br>
 주제선정이유: 컴퓨터를 좋아하는 사람들이 제품을 구매하기 편하게 만든 프로젝트 입니다.<br>
-노션 : https://bit.ly/3UDqO9H <br>
+노션 : https://bit.ly/3eSW6cU <br>
 캔바 : https://bit.ly/3LHjVQM <br>
 figma : https://bit.ly/3SvBXYn <br>
 DB_diagram : https://bit.ly/3BMkeVJ <br>
