@@ -10,22 +10,45 @@
 
 .header_inner {
 	display: flex;
+	justify-content: row-reverse;
+	margin-bottom: 30px;
 }
 .header_content {
 	display: flex;
-	justify-content: space-between;
-	width: 800px;
+	position: absolute;
+	right: 0px;
 }
 .title{
 	font-family: 'Permanent Marker', cursive;
 	font-size: 50px;
+	color: black;
 	width: 350px;
 	margin-right: 50px;
+	text-decoration: none;
+}
+.title a{
+	text-decoration: none;
+}
+.title a:visited{
+	color: black;
+}
+.title a:active{
+	color: #999;
 }
 .content{
-	width: 150px;
-	font-size: 20px;
+	font-size: 15px;
 	line-height: 85px;
+	margin-right: 40px;
+}
+.content a{
+	text-decoration: none;
+	color: black;
+}
+.content a:visited{
+	color: black;
+}
+.content a:active{
+	color: #999;
 }
 .product_container{
 	display: flex;

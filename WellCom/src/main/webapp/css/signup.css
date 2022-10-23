@@ -1,0 +1,24 @@
+.signup_inner{
+	height: 1200px;
+}
+.signup_box{
+	width: 1000px;
+	height: 1000px;
+	border: 1px solid black;
+	line-height: 30px;
+	padding-top: 3px;
+	padding-left: 8px;
+	border-radius: 2px 2px 2px 2px;
+}
+.input_tag{
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+}
+.input_button{
+	width: 280px;
+	height: 30px;
+}
+.check1, .check2, .check3, .check4, .check5, .check6 {
+	margin-bottom: 20px;
+}
