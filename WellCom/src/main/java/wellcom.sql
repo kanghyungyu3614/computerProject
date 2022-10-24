@@ -21,6 +21,8 @@ create table product(
 	pcontent	longtext,								-- 상품내용
     pimg		longtext,								-- 사진파일
 	pprice      int,                                	-- 상품가격
-    pdate		datetime default now() not null,		-- 상품등록일 
-	ppoint		int	default 1 not null					-- 상품제고
+    pdate		datetime default now() not null,		-- 상품등록일
+  	pamount		int default 1 not null,					-- 상품수량		
+	pstock		int	default 1 not null					-- 상품재고
 );
+select * from product;
