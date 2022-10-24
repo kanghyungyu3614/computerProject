@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="../css/header.css" rel="stylesheet">
 	<link href="../css/login.css" rel="stylesheet">
 	<link href="../css/footer.css" rel="stylesheet">
@@ -14,7 +15,7 @@
 <body>
 
 	<%@include file="../header.jsp"%>
-
+	<div class="inner">
 	<div class="login_inner">	
 		<form>
 			<span>아이디 : </span><input type="text" class="mid"><br><br>
@@ -24,7 +25,7 @@
 	</div>
 
 	<%@include file="../footer.jsp"%>
-
+	</div>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script type="text/javascript" src="../js/login.js"></script>
 

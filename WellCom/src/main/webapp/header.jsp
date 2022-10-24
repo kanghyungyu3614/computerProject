@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <body>
-	
+	<div class="inner">
 	<div class="header_inner">
 		<div class="title"><a href="/WellCom/index.jsp">Well Com</a></div>
 		<div class="header_content">
@@ -21,6 +21,6 @@
 			<span class="content"><a href="/WellCom/product/order.jsp">배송조회</a></span>
 		</div>
 	</div>
-	
+	</div>
 </body>
 </html>

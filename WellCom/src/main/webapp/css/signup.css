@@ -1,8 +1,14 @@
+
+
+
+
 .signup_inner{
 	height: 1200px;
+	width: 1200px;
+	margin: 0 auto;
 }
 .signup_box{
-	width: 1000px;
+	width: 1200px;
 	height: 1000px;
 	border: 1px solid black;
 	line-height: 30px;

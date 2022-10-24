@@ -10,11 +10,12 @@
 
 .header_inner {
 	display: flex;
-	justify-content: row-reverse;
 	margin-bottom: 30px;
+	position:relative;
 }
 .header_content {
 	display: flex;
+	float: right;
 	position: absolute;
 	right: 0px;
 }
@@ -25,6 +26,7 @@
 	width: 350px;
 	margin-right: 50px;
 	text-decoration: none;
+	display: inline;
 }
 .title a{
 	text-decoration: none;
@@ -38,7 +40,7 @@
 .content{
 	font-size: 15px;
 	line-height: 85px;
-	margin-right: 40px;
+	margin-left: 40px;
 }
 .content a{
 	text-decoration: none;
