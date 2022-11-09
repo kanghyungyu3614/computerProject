@@ -16,8 +16,8 @@ function loginload() {
 			document.querySelector('.join1').innerHTML = "<span style='font-weight:700px; font-size: 20px; line-height: 40px;'>("+member.mid+")</span>님"
 			document.querySelector('.join2').innerHTML = "<span style='cursor: pointer;' onclick='logout()'>로그아웃</span>"
 			if(member.mid == "admin") {
-				document.querySelector('.join3').innerHTML = "<a href='/WellCom/member/upload.jsp'>상품등록</span>"
-				document.querySelector('.join4').innerHTML = "<a href='/WellCom/member/stock.jsp'>재고확인</span>"
+				document.querySelector('.join3').innerHTML = "<a href='/WellCom/member/pregist.jsp'>상품등록</span>"
+				document.querySelector('.join4').innerHTML = "<a href='/WellCom/member/plist.jsp'>재고확인</span>"
 				document.querySelector('.join5').innerHTML = "<a href='/WellCom/member/shipping.jsp'>배송관리</span>"
 			}
 			console.log(member.mno)

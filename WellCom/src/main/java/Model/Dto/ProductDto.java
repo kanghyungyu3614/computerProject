@@ -9,14 +9,14 @@ public class ProductDto {
 	private String pimg;
 	private int pprice;
 	private String pdate;
-	private int ppoint;
+	private int pamount;
 	
 	public ProductDto() {
 		
 	}
-	
+
 	public ProductDto(int pno, String ptype, String pname, String pcontent, String pimg, int pprice, String pdate,
-			int ppoint) {
+			int pamount) {
 		super();
 		this.pno = pno;
 		this.ptype = ptype;
@@ -25,7 +25,7 @@ public class ProductDto {
 		this.pimg = pimg;
 		this.pprice = pprice;
 		this.pdate = pdate;
-		this.ppoint = ppoint;
+		this.pamount = pamount;
 	}
 
 	public int getPno() {
@@ -84,18 +84,18 @@ public class ProductDto {
 		this.pdate = pdate;
 	}
 
-	public int getPpoint() {
-		return ppoint;
+	public int getPamount() {
+		return pamount;
 	}
 
-	public void setPpoint(int ppoint) {
-		this.ppoint = ppoint;
+	public void setPamount(int pamount) {
+		this.pamount = pamount;
 	}
 
 	@Override
 	public String toString() {
-		return "MemberDto [pno=" + pno + ", ptype=" + ptype + ", pname=" + pname + ", pcontent=" + pcontent + ", pimg="
-				+ pimg + ", pprice=" + pprice + ", pdate=" + pdate + ", ppoint=" + ppoint + "]";
+		return "ProductDto [pno=" + pno + ", ptype=" + ptype + ", pname=" + pname + ", pcontent=" + pcontent + ", pimg="
+				+ pimg + ", pprice=" + pprice + ", pdate=" + pdate + ", pamount=" + pamount + "]";
 	}
 	
 }
